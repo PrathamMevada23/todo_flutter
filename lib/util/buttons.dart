@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:todo_flutter/const/colors.dart';
 
 class Buttons extends StatelessWidget {
   final String text;
@@ -15,7 +16,7 @@ class Buttons extends StatelessWidget {
     return MaterialButton(
       onPressed: onPressed,
       child: Text(text),
-      color: Theme.of(context).primaryColor,
+      color: colors.priClr,
     );
   }
 }
