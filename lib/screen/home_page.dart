@@ -82,7 +82,7 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
           title: Text('To..Do App'),
           centerTitle: true,
-          elevation: 0,
+          elevation: 1,
           backgroundColor: Colors.transparent),
       floatingActionButton: FloatingActionButton(
         backgroundColor: colors.priClr,
